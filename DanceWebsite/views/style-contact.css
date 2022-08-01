@@ -1,0 +1,32 @@
+h3{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MyInput{
+    width: 50%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid red;
+}
+.btn
+{
+    margin: 5px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    color: red;
+    background-color: blue;
+    width:100px;
+}
+.btn:hover{
+    color:blue;
+    background-color: red;
+    font-weight: bolder;
+}

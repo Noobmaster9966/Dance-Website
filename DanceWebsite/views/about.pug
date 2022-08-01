@@ -1,0 +1,11 @@
+extends base.pug
+//- extends helps in deriving template data from its basse file i.e. base.pug
+block style
+ style
+  include ../static/style.css
+//-   now to use the template, usage of block becomes reverse i.e now we have to write block statement first before writing 
+block scripts  
+ script(src="..static/index.js") 
+block content
+ h1 This is About Section! 
+ p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit aut officia voluptatem repudiandae nesciunt, dolores architecto nobis maiores unde, sed natus id harum sint explicabo quae beatae modi quas sunt.

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+}
+#logo img{
+    filter: invert(100%);
+    height: 60px;;
+}
+#navbar{
+background-color: #000a80;
+padding: 3px 4px;
+}
+
+#navbar li a{
+ text-decoration: none;
+ padding: 10px 30px;
+ /* margin:0px 3px; */
+ /* border: 2px solid yellow; */
+ color: lightgreen;
+ font-size: 20px;
+}
+
+#navbar li a:hover{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+   }
+
+#navbar li{
+    list-style: none;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+#introsection{
+height:300px;
+background-color: red;
+background: center /cover no-repeat url("../static/bg.jpg");
+/* center /contain no-repeat displays image at the center without caring to cover whole area while center /cover no-repeat full covers the area. */
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+font-size: 35px;
+flex-direction: column;
+padding-bottom: 40px;
+}
+
+#sponsorsection
+{
+height: 300px;
+background-color: red;
+}
+#sponsorsection h2
+{
+text-align: center;
+padding-top: 23px;
+}
+
+#sponsers{
+    height: 190px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+#sponsers img{
+    height: 80%;
+    margin: 20px;
+}
+
+
+
+
+
+
+#missionsection
+{
+height: 300px;
+background-color: purple;
+
+}
+#missionsection h2
+{
+text-align: center;
+padding-top: 23px;
+}
+
+#missionsection .card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 209px;
+    display: inline-block;
+
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 113px;
+    padding: 0 14px;
+}
+
+.card-img img{
+    height: inherit;
+    /* this will take the value of height of its parent, here parent of img is card-img, of which height is given as 113px. */
+}
+
+
+
+
+
+
+#footersection{
+height: 30px;
+background-color: black;
+display: flex;
+justify-content: center;
+}
+#introsection div.small{
+font-size: 27px;
+}

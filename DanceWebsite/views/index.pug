@@ -1,0 +1,65 @@
+//- https://pugjs.org/language/doctype.html
+doctype html
+html
+  head
+  style
+   include ../static/style.css
+  body
+   nav#navbar
+    
+    ul
+     div#logo
+      img(src="../static/logo.jpg", alt="slow net!")
+     li #[a(href="/") Home]
+     li #[a(href="/") About]
+     li #[a(href="/") Services]
+     li #[a(href="/") Contact us]
+     li #[a(href="/") Class Info]
+
+   section#introsection 
+    div  Welcome to Mradul Dance Academy 
+    div.small  Eat, Sleep, Dance- Repeat! 
+   
+   section#missionsection 
+    h2 Our Mission
+    div.card
+     h3 Dance Deewane
+     div.card-box
+      div.card-img
+       img(src="../static/logo.jpg", alt="slow net!")
+      div.card-content
+       p Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi repellendus, neque delectus maxime enim natus commodi corporis necessitatibus, eum deleniti reiciendis repellat minima earum est doloremque non, qui fugiat?
+
+    
+    div.card
+     h3 Free Style
+     div.card-box
+      div.card-img
+       img(src="../static/freestyle.jpg", alt="slow net!")
+      div.card-content
+       p Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi repellendus, neque delectus maxime enim natus commodi corporis necessitatibus, eum deleniti reiciendis repellat minima earum est doloremque non, qui fugiat?
+    
+    
+    div.card
+     h3 Hip-Hop
+     div.card-box
+      div.card-img
+       img(src="../static/HipHop.jpg", alt="slow net!")
+      div.card-content
+       p Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quasi repellendus, neque delectus maxime enim natus commodi corporis necessitatibus, eum deleniti reiciendis repellat minima earum est doloremque non, qui fugiat?
+
+
+
+   section#sponsorsection 
+    h2 Our Sponsors
+    div#sponsers
+     img(src="../static/football.jpg", alt="noob net!")
+     img(src="../static/EA_logo_tm.svg", alt="noob net!")
+     img(src="../static/google.png", alt="noob net!")
+     img(src="../static/hp.png", alt="noob net!")
+     
+   footer#footersection 
+    | Copyright &copy; 2021 MradulDanceAcademy.com | All rights reserved 
+    
+    script
+      include ../static/index.js

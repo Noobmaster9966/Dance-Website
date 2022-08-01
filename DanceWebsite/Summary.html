@@ -1,0 +1,77 @@
+<!-- here the summary on the methods and practises use for making the sites is described.
+    This is my first successful working site based on backend and pug.
+    
+   1) first npm and express is installed in the directory to create node modules
+   2) nodemon is installed for live editing purposes
+   
+   3) app is created using express
+   4)we have static files such as css , javascript files for frontend
+   5) we have created a new path in directory folder views where all main files connecting to app.js was present and working in backend
+
+   6) now we have created various "get requests" by using app.get() function to move through various parts(web pages) on thr website.
+   7)these all webpages can also be created using html but for the purpose of using template (which is a productive way) is the best choice we had and had to try.so we created various pug files with base.pug designing the template for rest of the pug files to derive from it.
+  
+  
+   8)The template have to important words- block and extends.
+   "extends" helps other pug files to derive template data from base.pug
+   "block" we can assume blocks of various parts like block of body ,block of css files,block of javascript files,block of footer files and so on, these blocks derive the body structure where we can either copy the same data as there in base.pug or can make our own.(just dont be careless with indendation problems)
+
+   9)Now, after completing the pug files part or we can say after successfully designing and functioning of the site its time to run the site.
+
+   10) here after submitting form , heres the working of the process,
+
+   1) app.use(express.urlencoded()) helps in storing the data came from "post request" of the form in object.
+
+   2) now we need post request so we created app.post("/checked") where "/checked" is a url which will direct the website to the page we created names as "check.pug" by using res.render("check.pug") while during its rendering the data of the formed is being sent through the file system !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -->

@@ -1,0 +1,25 @@
+//- layout.pug
+//- this is the base pug file which will create a body template which will be used by other pug files depending on it.
+
+//- after the writing black, it completes the template of that particular field.
+doctype html 
+html
+  head
+    title MradulDanceAcademy 
+    block scripts
+    block style
+  body
+   nav#navbar
+    ul
+     div#logo
+      img(src="../static/logo.jpg", alt="slow net!")
+     li #[a(href="/") Home]
+     li #[a(href="/about") About]
+     li #[a(href="/services") Services]
+     li #[a(href="/contact") Contact us]
+     li #[a(href="/info") Class Info]
+   block content
+  footer#footersection 
+   | Copyright &copy; 2021 MradulDanceAcademy.com | All rights reserved
+  block foot
+  
